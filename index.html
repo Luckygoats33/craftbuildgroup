@@ -333,6 +333,12 @@
       overflow: hidden;
     }
 
+    .team-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     .team-photo::after {
       content: attr(data-initials);
       position: absolute;
@@ -525,7 +531,7 @@
 
   <!-- Header -->
   <header class="header">
-    <a href="index.html" class="logo">CRAFT <span>BUILD GROUP</span></a>
+    <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Craft Build Group" style="height:50px;"></a>
     <button class="menu-toggle" onclick="document.querySelector('.nav').classList.toggle('active')">
       <span></span><span></span><span></span>
     </button>
@@ -618,7 +624,7 @@
     <div class="team-grid">
       <!-- Scott Keller -->
       <div class="team-member">
-        <div class="team-photo" data-initials="SK"></div>
+        <div class="team-photo" data-initials="SK"><img src="images/Scott-left-1.jpg" alt="Scott Keller"></div>
         <h3>Scott Keller</h3>
         <div class="title">Principal</div>
         <p>Scott is a creative and intuitive thinker with 25 years of multi-disciplinary experience in various industries such as real estate, entertainment, music and international trade.</p>
@@ -628,7 +634,7 @@
 
       <!-- Daryl Vidal -->
       <div class="team-member">
-        <div class="team-photo" data-initials="DV"></div>
+        <div class="team-photo" data-initials="DV"><img src="images/Daryl-center.jpg" alt="Daryl Vidal"></div>
         <h3>Daryl Vidal</h3>
         <div class="title">Contractor</div>
         <p>An accomplished contractor, Daryl has more than 25 years of experience in the industry. He has an extensive and diverse portfolio that encompasses homes remodelling and construction of multimillion-dollar homes from the ground up. His expertise is recognized not just in the US, but also at a global level.</p>
@@ -638,7 +644,7 @@
 
       <!-- Diego Pirona -->
       <div class="team-member">
-        <div class="team-photo" data-initials="DP"></div>
+        <div class="team-photo" data-initials="DP"><img src="images/Diego_bw.jpg" alt="Diego Pirona"></div>
         <h3>Diego Pirona</h3>
         <div class="title">Design Director</div>
         <p>With over 25 years of Design experience across residential, retail and commercial projects, Diego's wholistic approach is an invaluable asset to any Development. For DLA Architects he's coordinated many Residential, Mixed-Use and Custom Fabrication projects throughout California. At Westfield Corporation, he was on Productions Teams for Century City Mall &ndash; CA Expansion 220,000sqft and Topanga Mall &ndash; CA 970,000sqft. With Frank R. Webb Architects, he worked on Kaiser Permanente's Independence Park conversion of 160,000sqft into their headquarters. He was a National Project Manager at Linane/Drews Architects, locally worked on Banana Republic, Ann Taylor, Robinson's-May, and Macy's.</p>
